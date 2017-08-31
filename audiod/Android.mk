@@ -16,6 +16,8 @@ LOCAL_SHARED_LIBRARIES := \
 	libcutils \
 	libutils \
 	libbinder \
+        liblog \
+        libaudioclient \
 	libmedia
 
 ifneq (,$(findstring $(PLATFORM_VERSION), 5.0 5.1 5.1.1))
